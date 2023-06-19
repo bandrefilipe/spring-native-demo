@@ -15,7 +15,9 @@ dependencies {
     implementation(project(":infrastructure"))
 
     // Spring Starter
-    implementation("org.springframework.boot:spring-boot-starter-web")
+//    implementation("org.springframework.boot:spring-boot-starter")
+    implementation("org.springframework.boot:spring-boot-starter-web") // cant have this dep declared only in the
+                                                                       // 'infrastructure' build script
 }
 
 /***********************************************************************************************************************
